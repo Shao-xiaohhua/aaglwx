@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+$daping:3000px;
+$zhongping:1068px;
+$xiaoping:735px;
+
+$xiao:880px;
+$zhong:1000px;
+$da:3000px;
+
+
+$list:(
+    'l':$daping,
+    'm':$zhongping,
+    's':$xiaoping
+ );
+ $number:12;
+ @for $i from 1 through $number{
+     @each $k in map_keys($list){
+     @media screen and(max-width:map_get($list,$k)) {
+     .col.#{$k}#{$i}{
+         width:percentage($i/$number);
+     }
+ }
+ }
+ }
+@font-face {
+  font-family: "pingguo";
+  src: url(font/iconfont.woff) format("woff");
+}
+@font-face {
+  font-family: "xi";
+  src: url(font/myriad-set-pro_extrathin.woff) format("woff");
+}
+@font-face {
+  font-family: "fangdajing";
+  src: url(font/fangdajing.woff) format("woff");
+}
+@font-face {
+  font-family: "cu";
+  src: url(font/myriad-set-pro_semibold.woff) format("woff");
+}
+@font-face {
+  font-family: "zhengchang";
+  src: url(font/myriad-set-pro_text.woff) format("woff");
+}
+@font-face {
+  font-family: "jixi";
+  src: url(font/myriad-set-pro_thin.woff) format("woff");
+}
+//.fangdajinga{
+//  font-family: "fangdajing";
+//  font-style: normal;
+//}
+.xi{
+  font-family: "xi";
+}
+.cu{
+  font-family: "cu";
+}
+.zhengchang{
+  font-family: "zhengchang";
+}
+.jixi{
+  font-family: "jixi";
+}
+.tubiao{
+  font-family: "pingguo";
+  font-style: normal;
+}
+.guoguo::before{
+  content:"\e6d6";
+}
+.kongguoguo::before{
+  content:"\e60a";
+}
+//.fangdajing::before{
+//  content: "\e634";
+//}
+//.gouwudai::before{
+//  content: "\e64b"
+//}
+.row{
+  position: relative;
+}
+.row::after{
+  content: "";
+  clear: both;
+  display: none;
+  height: 0;
+  line-height: 0;
+}
+
+@mixin zuoyou{
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+@mixin shangxia{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+}
+@mixin zhongjian{
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+

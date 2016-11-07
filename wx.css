@@ -1,0 +1,1483 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l1 {
+    width: 8.33333%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m1 {
+    width: 8.33333%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s1 {
+    width: 8.33333%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l2 {
+    width: 16.66667%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m2 {
+    width: 16.66667%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s2 {
+    width: 16.66667%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l3 {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m3 {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s3 {
+    width: 25%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l4 {
+    width: 33.33333%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m4 {
+    width: 33.33333%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s4 {
+    width: 33.33333%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l5 {
+    width: 41.66667%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m5 {
+    width: 41.66667%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s5 {
+    width: 41.66667%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l6 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m6 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s6 {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l7 {
+    width: 58.33333%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m7 {
+    width: 58.33333%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s7 {
+    width: 58.33333%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l8 {
+    width: 66.66667%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m8 {
+    width: 66.66667%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s8 {
+    width: 66.66667%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l9 {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m9 {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s9 {
+    width: 75%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l10 {
+    width: 83.33333%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m10 {
+    width: 83.33333%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s10 {
+    width: 83.33333%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l11 {
+    width: 91.66667%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m11 {
+    width: 91.66667%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s11 {
+    width: 91.66667%;
+  }
+}
+
+@media screen and (max-width: 3000px) {
+  .col.l12 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 1068px) {
+  .col.m12 {
+    width: 100%;
+  }
+}
+
+@media screen and (max-width: 735px) {
+  .col.s12 {
+    width: 100%;
+  }
+}
+
+@font-face {
+  font-family: "pingguo";
+  src: url(font/iconfont.woff) format("woff");
+}
+
+@font-face {
+  font-family: "xi";
+  src: url(font/myriad-set-pro_extrathin.woff) format("woff");
+}
+
+@font-face {
+  font-family: "fangdajing";
+  src: url(font/fangdajing.woff) format("woff");
+}
+
+@font-face {
+  font-family: "cu";
+  src: url(font/myriad-set-pro_semibold.woff) format("woff");
+}
+
+@font-face {
+  font-family: "zhengchang";
+  src: url(font/myriad-set-pro_text.woff) format("woff");
+}
+
+@font-face {
+  font-family: "jixi";
+  src: url(font/myriad-set-pro_thin.woff) format("woff");
+}
+
+.xi {
+  font-family: "xi";
+}
+
+.cu {
+  font-family: "cu";
+}
+
+.zhengchang {
+  font-family: "zhengchang";
+}
+
+.jixi {
+  font-family: "jixi";
+}
+
+.tubiao {
+  font-family: "pingguo";
+  font-style: normal;
+}
+
+.guoguo::before {
+  content: "\e6d6";
+}
+
+.kongguoguo::before {
+  content: "\e60a";
+}
+
+.row {
+  position: relative;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: none;
+  height: 0;
+  line-height: 0;
+}
+
+* {
+  position: relative;
+}
+
+li {
+  font-family: "cu";
+}
+
+h1 {
+  font-family: "cu";
+}
+
+@media screen and (max-width: 800px) {
+  html {
+    font-size: 111.11111px;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  html {
+    font-size: 100px;
+  }
+}
+
+@media screen and (max-width: 414px) {
+  html {
+    font-size: 57.5px;
+  }
+}
+
+@media screen and (max-width: 412px) {
+  html {
+    font-size: 57.22222px;
+  }
+}
+
+@media screen and (max-width: 384px) {
+  html {
+    font-size: 53.33333px;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  html {
+    font-size: 52.08333px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  html {
+    font-size: 50px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  html {
+    font-size: 44.44444px;
+  }
+}
+
+.ooo.mei {
+  display: none;
+}
+
+.ooo.diyi {
+  width: 100%;
+  height: auto;
+}
+
+.ooo.diyi .one {
+  width: 100%;
+  height: 0.8rem;
+  background: url("images/IMG_0221_03 (2).png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .one .weixin {
+  width: 0.66rem;
+  height: 0.34rem;
+  background: url("images/IMG_0221_03.png");
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ooo.diyi .one .jia {
+  width: 0.34rem;
+  height: 0.34rem;
+  background: url("images/IMG_0221_05.png");
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.36rem;
+}
+
+.ooo.diyi .two {
+  width: 100%;
+  height: 10.11rem;
+  background: cornflowerblue;
+  overflow-y: auto;
+}
+
+.ooo.diyi .two .sousuo {
+  width: 100%;
+  height: 0.78rem;
+  background: #efeef4;
+}
+
+.ooo.diyi .two .sousuo input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: none;
+  outline: none;
+  width: 95%;
+  height: 0.49rem;
+  border-radius: 0.07rem;
+}
+
+.ooo.diyi .two .sousuo .fangda {
+  width: 0.9rem;
+  height: 0.29rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: red;
+}
+
+.ooo.diyi .two .sousuo .fangda .one {
+  float: left;
+  width: 36%;
+  height: 100%;
+  background: url("images/IMG_0225_03.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two .sousuo .fangda .two {
+  float: left;
+  width: 64%;
+  height: 100%;
+  background: url("images/IMG_0225_05.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two .sousuo .maike {
+  width: 0.19rem;
+  height: 0.33rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.33rem;
+  background: url("images/IMG_0225_07.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul {
+  width: 100%;
+  height: auto;
+}
+
+.ooo.diyi .two ul li {
+  width: 100%;
+  height: 1.08rem;
+  background: #fff;
+  border-bottom: 1px solid #efefef;
+}
+
+.ooo.diyi .two ul li .tu {
+  width: 0.88rem;
+  height: 0.88rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: blue;
+  left: 0.07rem;
+}
+
+.ooo.diyi .two ul li .ming {
+  width: 3rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0.24rem;
+  left: 1.24rem;
+  font-size: 0.29rem;
+}
+
+.ooo.diyi .two ul li .zi {
+  width: 5.26rem;
+  height: 0.26rem;
+  position: absolute;
+  bottom: 0.22rem;
+  left: 1.24rem;
+  font-size: 0.2rem;
+  color: #666;
+  font-weight: normal;
+}
+
+.ooo.diyi .two ul li .shijian {
+  width: 0.9rem;
+  height: 0.20rem;
+  position: absolute;
+  top: 0.26rem;
+  right: 0.16rem;
+  font-size: 0.20rem;
+  color: #666;
+  font-family: "xi";
+}
+
+.ooo.diyi .two ul li:nth-child(1) .tu {
+  background: url("images/IMG_0221_13.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(2) .tu {
+  background: url("images/IMG_0221_16.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(3) .tu {
+  background: url("images/IMG_0221_18.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(4) .tu {
+  background: url("images/IMG_0221_23.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(5) .tu {
+  background: url("images/IMG_0221_21.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(6) .tu {
+  background: url("images/IMG_0221_25.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(7) .tu {
+  background: url("images/IMG_0221_27.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(8) .tu {
+  background: url("images/IMG_0221_29.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(9) .tu {
+  background: url("images/IMG_0221_31.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(10) .tu {
+  background: url("images/22ccaf4c24ef690f7767e6a3ba5f0.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(11) .tu {
+  background: url("images/iVP8XjSdLWQAAAABJRU5ErkJggg==.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(12) .tu {
+  background: url("images/uvr8EFi59NQAAAAASUVORK5CYII=.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(13) .tu {
+  background: url("images/hAAAAABJRU5ErkJggg==.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(14) .tu {
+  background: url("images/9fWJv8d1wcAAAAASUVORK5CYII=.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(15) .tu {
+  background: url("images/B4h0Bhkc95tQAAAAAElFTkSuQmCC.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .two ul li:nth-child(16) .tu {
+  background: url("images/IMG_0221_05.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .san {
+  width: 100%;
+  height: 0.86rem;
+  background: url("images/gddhh.gif") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .san ul {
+  text-align: justify;
+  width: 80%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ooo.diyi .san ul .dixia {
+  top: 0;
+  width: 0.54rem;
+  height: 100%;
+  background: red;
+  display: inline-block;
+}
+
+.ooo.diyi .san ul .meiyong {
+  opacity: 0;
+  height: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.ooo.diyi .san li:nth-child(1) {
+  background: url("images/IMG_0221_34.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .san li:nth-child(2) {
+  background: url("images/IMG_0221_36.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .san li:nth-child(3) {
+  background: url("images/IMG_0221_39.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .san li:nth-child(4) {
+  background: url("images/IMG_0221_41.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .si {
+  display: none;
+  width: 2.39rem;
+  height: 3.07rem;
+  position: absolute;
+  top: 0.97rem;
+  right: 0.13rem;
+  background: url("images/IMG_0221_10.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.diyi .sidianyi {
+  display: none;
+  position: absolute;
+  width: 0.22rem;
+  height: 0.22rem;
+  background: url("images/IMG_0221_10.png");
+  top: 0.87rem;
+  right: 0.4rem;
+  transform: rotateZ(45deg);
+}
+
+.ooo.diyi .si.chu, .ooo.diyi .sidianyi.chu {
+  display: block;
+}
+
+.ooo.diyi .yiyiyi {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.ooo.diyi .ererer {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0.81rem;
+  left: 0;
+}
+
+.ooo.diyi .sansansan {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 11.64rem;
+  left: 0;
+}
+
+.ooo.er {
+  width: 100%;
+  height: auto;
+}
+
+.ooo.er .yiyiyi {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.ooo.er .ererer {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0.81rem;
+  left: 0;
+}
+
+.ooo.er .sansansan {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 11.64rem;
+  left: 0;
+}
+
+.ooo.er .one {
+  width: 100%;
+  height: 0.8rem;
+  background: url("images/IMG_0221_03 (2).png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .one .weixin {
+  width: 0.66rem;
+  height: 0.34rem;
+  background: url("images/IMG_0222_03.png") no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ooo.er .one .jia {
+  width: 0.34rem;
+  height: 0.34rem;
+  background: url("images/IMG_0221_05.png");
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.36rem;
+}
+
+.ooo.er .two {
+  width: 100%;
+  height: 10.11rem;
+  background: cornflowerblue;
+  overflow-y: auto;
+}
+
+.ooo.er .two .sousuo {
+  width: 100%;
+  height: 0.78rem;
+  background: #efeef4;
+}
+
+.ooo.er .two .sousuo input {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: none;
+  outline: none;
+  width: 95%;
+  height: 0.49rem;
+  border-radius: 0.07rem;
+}
+
+.ooo.er .two .sousuo .fangda {
+  width: 0.9rem;
+  height: 0.29rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: red;
+}
+
+.ooo.er .two .sousuo .fangda .one {
+  float: left;
+  width: 36%;
+  height: 100%;
+  background: url("images/IMG_0225_03.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two .sousuo .fangda .two {
+  float: left;
+  width: 64%;
+  height: 100%;
+  background: url("images/IMG_0225_05.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two .sousuo .maike {
+  width: 0.19rem;
+  height: 0.33rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.33rem;
+  background: url("images/IMG_0225_07.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul {
+  width: 100%;
+  height: auto;
+}
+
+.ooo.er .two ul li {
+  width: 100%;
+  height: 1.08rem;
+  background: #fff;
+  border-bottom: 1px solid #efefef;
+}
+
+.ooo.er .two ul li .tu {
+  width: 0.88rem;
+  height: 0.88rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: blue;
+  left: 0.07rem;
+}
+
+.ooo.er .two ul li .ming {
+  width: 3rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0.5rem;
+  left: 1.24rem;
+  font-size: 0.29rem;
+}
+
+.ooo.er .two ul li .zi {
+  width: 5.26rem;
+  height: 0.26rem;
+  position: absolute;
+  bottom: 0.22rem;
+  left: 1.24rem;
+  font-size: 0.2rem;
+  color: #666;
+  font-weight: normal;
+  display: none;
+}
+
+.ooo.er .two ul li .shijian {
+  width: 0.9rem;
+  height: 0.20rem;
+  position: absolute;
+  top: 0.26rem;
+  right: 0.16rem;
+  font-size: 0.20rem;
+  color: #666;
+  font-family: "xi";
+  display: none;
+}
+
+.ooo.er .two ul li:nth-child(1) .tu {
+  background: url("images/IMG_0221_13.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(2) .tu {
+  background: url("images/IMG_0221_16.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(3) .tu {
+  background: url("images/IMG_0221_18.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(4) .tu {
+  background: url("images/IMG_0221_23.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(5) .tu {
+  background: url("images/IMG_0221_21.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(6) .tu {
+  background: url("images/IMG_0221_25.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(7) .tu {
+  background: url("images/IMG_0221_27.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(8) .tu {
+  background: url("images/IMG_0221_29.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(9) .tu {
+  background: url("images/IMG_0221_31.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(10) .tu {
+  background: url("images/22ccaf4c24ef690f7767e6a3ba5f0.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(11) .tu {
+  background: url("images/iVP8XjSdLWQAAAABJRU5ErkJggg==.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(12) .tu {
+  background: url("images/uvr8EFi59NQAAAAASUVORK5CYII=.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(13) .tu {
+  background: url("images/hAAAAABJRU5ErkJggg==.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(14) .tu {
+  background: url("images/9fWJv8d1wcAAAAASUVORK5CYII=.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(15) .tu {
+  background: url("images/B4h0Bhkc95tQAAAAAElFTkSuQmCC.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .two ul li:nth-child(16) .tu {
+  background: url("images/IMG_0221_05.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .san {
+  width: 100%;
+  height: 0.86rem;
+  background: url("images/说法灌水灌水灌水发.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .san ul {
+  text-align: justify;
+  width: 80%;
+  height: 100%;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ooo.er .san ul .dixia {
+  top: 0;
+  width: 0.54rem;
+  height: 100%;
+  background: red;
+  display: inline-block;
+}
+
+.ooo.er .san ul .meiyong {
+  opacity: 0;
+  height: 0;
+  display: inline-block;
+  width: 100%;
+}
+
+.ooo.er .san li:nth-child(1) {
+  background: url("images/IMG_0222_03 (2).png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .san li:nth-child(2) {
+  background: url("images/IMG_0222_05 (2).png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .san li:nth-child(3) {
+  background: url("images/IMG_0221_39.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .san li:nth-child(4) {
+  background: url("images/IMG_0221_41.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .si {
+  display: none;
+  width: 2.39rem;
+  height: 3.07rem;
+  position: absolute;
+  top: 0.97rem;
+  right: 0.13rem;
+  background: url("images/IMG_0221_10.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .sidianyi {
+  display: none;
+  position: absolute;
+  width: 0.22rem;
+  height: 0.22rem;
+  background: url("images/IMG_0221_10.png");
+  top: 0.87rem;
+  right: 0.4rem;
+  transform: rotateZ(45deg);
+}
+
+.ooo.er .si.chu, .ooo.er .sidianyi.chu {
+  display: block;
+}
+
+.ooo.er .ce {
+  height: 5.33rem;
+  width: 0.25rem;
+  position: fixed;
+  top: 2.5rem;
+  right: 0;
+}
+
+.ooo.er .ce .fangdajing {
+  height: 0.25rem;
+  width: 100%;
+  background: url("images/IMG_0225_03.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .ce .xingxing {
+  height: 0.25rem;
+  width: 100%;
+  background: url("images/IMG_0222_03 (3).png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.er .ce ul {
+  width: 100%;
+  height: auto;
+  padding-left: 0.05rem;
+  box-sizing: border-box;
+}
+
+.ooo.er .ce ul li {
+  color: #666;
+  font-size: 0.2rem;
+}
+
+.ooo.san {
+  width: 100%;
+  height: auto;
+}
+
+.ooo.san .yiyiyi {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.ooo.san .ererer {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0.81rem;
+  left: 0;
+}
+
+.ooo.san .sansansan {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 11.64rem;
+  left: 0;
+}
+
+.ooo.san .one {
+  width: 100%;
+  height: 0.8rem;
+  background: url("images/IMG_0221_03 (2).png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .one .weixin {
+  width: 0.66rem;
+  height: 0.34rem;
+  background: url("images/IMG_0223_03.gif") no-repeat center center;
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ooo.san .one .jia {
+  width: 0.34rem;
+  height: 0.34rem;
+  background: url("images/IMG_0221_05.png");
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.36rem;
+}
+
+.ooo.san .two {
+  width: 100%;
+  height: 10.11rem;
+  background: url("images/IMG_0223_02 (2).gif") no-repeat center center;
+  background-size: 100% 100%;
+  overflow-y: auto;
+}
+
+.ooo.san .two div {
+  overflow: hidden;
+}
+
+.ooo.san .two .yi {
+  width: 100%;
+  height: 0.76rem;
+  background: #fff;
+  margin-top: 0.27rem;
+}
+
+.ooo.san .two .yi .yinei {
+  width: 95%;
+  height: 100%;
+  float: right;
+  background: url("images/IMG_0223_02.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .two .er {
+  width: 100%;
+  height: 1.52rem;
+  margin-top: 0.27rem;
+  background: #fff;
+}
+
+.ooo.san .two .er .eryi {
+  width: 95%;
+  height: 50%;
+  float: right;
+  background: url("images/IMG_0223_04.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .two .er .erer {
+  width: 95%;
+  height: 50%;
+  float: right;
+  background: url("images/IMG_0223_05.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .two .ssan {
+  width: 100%;
+  height: 1.52rem;
+  margin-top: 0.27rem;
+  background: #fff;
+}
+
+.ooo.san .two .ssan .ssanyi {
+  width: 95%;
+  height: 50%;
+  float: right;
+  background: url("images/IMG_0223_07_看图王.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .two .ssan .ssaner {
+  width: 95%;
+  height: 50%;
+  float: right;
+  background: url("images/IMG_0223_08.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .two .siA {
+  width: 100%;
+  height: 1.52rem;
+  margin-top: 0.27rem;
+  background: #fff;
+}
+
+.ooo.san .two .siA .siyi {
+  width: 95%;
+  height: 50%;
+  float: right;
+  background: url("images/IMG_0223_10.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .two .siA .sier {
+  width: 95%;
+  height: 50%;
+  float: right;
+  background: url("images/IMG_0223_11.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .san {
+  width: 100%;
+  height: 0.86rem;
+  background: url("images/IMG_0223_02.gif") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .si {
+  display: none;
+  width: 2.39rem;
+  height: 3.07rem;
+  position: absolute;
+  top: 0.97rem;
+  right: 0.13rem;
+  background: url("images/IMG_0221_10.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .sidianyi {
+  display: none;
+  position: absolute;
+  width: 0.22rem;
+  height: 0.22rem;
+  background: url("images/IMG_0221_10.png");
+  top: 0.87rem;
+  right: 0.4rem;
+  transform: rotateZ(45deg);
+}
+
+.ooo.san .si.chu, .ooo.san .sidianyi.chu {
+  display: block;
+}
+
+.ooo.san .ce {
+  height: 5.33rem;
+  width: 0.25rem;
+  position: fixed;
+  top: 2.5rem;
+  right: 0;
+}
+
+.ooo.san .ce .fangdajing {
+  height: 0.25rem;
+  width: 100%;
+  background: url("images/IMG_0225_03.png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .ce .xingxing {
+  height: 0.25rem;
+  width: 100%;
+  background: url("images/IMG_0222_03 (3).png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.san .ce ul {
+  width: 100%;
+  height: auto;
+  padding-left: 0.05rem;
+  box-sizing: border-box;
+}
+
+.ooo.san .ce ul li {
+  color: #666;
+  font-size: 0.2rem;
+}
+
+.ooo.disi {
+  width: 100%;
+  height: auto;
+}
+
+.ooo.disi .yiyiyi {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.ooo.disi .ererer {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 0.81rem;
+  left: 0;
+}
+
+.ooo.disi .sansansan {
+  width: 100%;
+  height: auto;
+  position: fixed;
+  top: 11.64rem;
+  left: 0;
+}
+
+.ooo.disi .one {
+  width: 100%;
+  height: 0.8rem;
+  background: url("images/IMG_0221_03 (2).png") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.disi .one .weixin {
+  width: 0.66rem;
+  height: 0.34rem;
+  background: url("images/qwrqrqrqwr.gif");
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.ooo.disi .one .jia {
+  width: 0.34rem;
+  height: 0.34rem;
+  background: url("images/IMG_0221_05.png");
+  background-size: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  right: 0.36rem;
+}
+
+.ooo.disi .two {
+  width: 100%;
+  height: 10.11rem;
+  background: url("images/IMG_0223_02 (2).gif") no-repeat center center;
+  background-size: 100% 100%;
+  overflow-y: auto;
+}
+
+.ooo.disi .two ul {
+  margin-top: 0.28rem;
+  width: 100%;
+  height: auto;
+}
+
+.ooo.disi .two ul li {
+  width: 100%;
+  height: 1.08rem;
+  background: #fff;
+  border-bottom: 1px solid #efefef;
+}
+
+.ooo.disi .two ul li .tu {
+  width: 0.88rem;
+  height: 0.88rem;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: blue;
+  left: 0.07rem;
+}
+
+.ooo.disi .two ul li .ming {
+  width: 3rem;
+  height: 0.34rem;
+  position: absolute;
+  top: 0.24rem;
+  left: 1.24rem;
+  font-size: 0.29rem;
+}
+
+.ooo.disi .two ul li .zi {
+  width: 5.26rem;
+  height: 0.26rem;
+  position: absolute;
+  bottom: 0.22rem;
+  left: 1.24rem;
+  font-size: 0.2rem;
+  color: #666;
+  font-weight: normal;
+}
+
+.ooo.disi .two ul li .shijian {
+  width: 0.9rem;
+  height: 0.4rem;
+  position: absolute;
+  top: 0.26rem;
+  right: 0.16rem;
+  font-size: 0.20rem;
+  color: #666;
+  font-family: "xi";
+}
+
+.ooo.disi .two ul li:nth-child(1) .tu {
+  background: url("images/IMG_0224_03.gif") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.disi .two ul .shijian {
+  background: url("images/IMG_0224_09.gif") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.disi .two .neirong {
+  margin-top: 0.28rem;
+  width: 100%;
+  height: 3.06rem;
+  background: url("images/IMG_0224_17.gif") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.disi .two .neirongyi {
+  margin-top: 0.28rem;
+  width: 100%;
+  height: 0.73rem;
+  background: url("images/IMG_0224_19.gif") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.disi .two .neironger {
+  margin-top: 0.28rem;
+  width: 100%;
+  height: 0.73rem;
+  background: url("images/IMG_0224_21.gif") no-repeat center center;
+  background-size: 100%;
+}
+
+.ooo.disi .san {
+  width: 100%;
+  height: 0.86rem;
+  background: url("images/afdfdsf.gif") no-repeat center center;
+  background-size: 100%;
+}
+
+.baliu {
+  z-index: 8888888888;
+  position: fixed;
+  bottom: 0.2rem;
+  left: 0;
+  width: 100%;
+  height: 0.86rem;
+}
+
+.baliu ul {
+  width: 100%;
+  height: 100%;
+}
+
+.baliu ul li {
+  height: 100%;
+  width: 1.7rem;
+  float: left;
+  margin-left: 0.01rem;
+  margin-right: 0.01rem;
+}

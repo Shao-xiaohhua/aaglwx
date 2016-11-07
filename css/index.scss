@@ -1,0 +1,59 @@
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+position: relative;
+}
+.tou{
+width: 100%;
+height: 100px;
+background: black;
+position: fixed;
+top: 0;
+left: 0;
+}
+.weiwei{
+width: 100%;
+height:50px; 
+position: fixed;
+bottom: 0;
+left: 0;
+box-sizing: border-box;
+a{
+display: block;
+width: 25%;
+height: 100%;
+float: left;
+color: #666;
+h1{
+font-family: "wxx";
+font-size: 0.4rem;
+box-sizing: border-box;
+text-align: center;
+}
+h2{ font-family: "微软雅黑";
+    font-size: 0.35rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+}
+a.lv{
+    color: green;
+}
+}
+.zhongjian{
+width: 100%;
+position: fixed;
+top: 100px;
+bottom: 50px;
+margin: auto;
+font-size: 50px;
+
+}
+
+@font-face {
+  font-family: "wxx";
+  src: url(../font/iconfont.woff) format("woff");
+}
+

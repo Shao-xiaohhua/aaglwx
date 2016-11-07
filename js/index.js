@@ -1,0 +1,38 @@
+var agl=angular.module('aa',['ngRoute']);
+agl.controller('bb',['$scope',function($scope){
+$scope.hahaha=123123;
+}]);
+agl.directive('lianxi',function(){
+    return{
+        templateUrl:'tou.html',
+        replace:true,
+        restrict:'AE'
+    }
+})
+agl.directive('toubu',function(){
+return{
+templateUrl:'html/tou.html',
+replace:true,
+restrict:'AE'
+}
+})
+agl.directive('weibu',function(){
+return{
+templateUrl:'html/wei.html',
+replace:true,
+restrict:'AE',
+link:function(a,b,c,d){
+	b.find('a').on('click',function(){
+		 $('a').removeClass('lv');
+		 $(this).addClass('lv');
+	})
+}
+}
+})
+agl.config(['$routeProvider',function(a){
+a.when('/',{templateUrl:'html/a.html'})
+.when('/diyi',{templateUrl:'html/a.html'})
+.when('/dier',{templateUrl:'html/b.html'})
+.when('/disan',{templateUrl:'html/c.html'})
+.when('/disi',{templateUrl:'html/d.html'})
+}])
